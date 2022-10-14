@@ -131,7 +131,7 @@ const showCards = () => {
   );
   moocs.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards);
+// document.addEventListener("DOMContentLoaded", showCards);
 
 /* Badges*/
 
