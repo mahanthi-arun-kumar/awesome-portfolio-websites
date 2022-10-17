@@ -9,13 +9,13 @@ const exp = [
     cardImage: "assets/images/experience-page/hashedin.png",
     place: "Hashedin By Deloitte",
     time: "(Oct 2020 - present)",
-    desp: "<li>Working on HPE peoject</li><li>Need to fill this</li>",
+    desp: "<li>Led front-end team of 4 engineers for React developing UI for various HPE cloud as-a-service products.</li><li>Responsible for delivering critical modules for various HPE cloud as-a-service products, such as SAML, Activate, IP Access Rules and Device management modules</li><li>Undertook major enhancements and refactors on codebase to adhere to software engineering practices, improving code quality and maintainability.</li><li>nterfaced with various HPE and Deloitte teams to improve delivery ratio focusing on value generation.</li><li>Mentored interns and junior developers on the team.</li>",
   },
   {
     title: "ASSOSCIATE SOFTWARE DEVELOPER",
     cardImage: "assets/images/experience-page/tekion.png",
     place: "Tekion",
-    time: "(June 2019 - July 2020)", 
+    time: "(June 2019 - July 2020)",
     desp: "<li>I worked as Front End developer in Tekion's accounting Team.</li> <li>Our team takes control of  financials with configurable schedules, instant check payments and real-time data.</li> <li>I worked on integrated features in Tekion's Accouting Like  Check Printing, Customer Invoice.</li>",
   },
   {
@@ -23,9 +23,8 @@ const exp = [
     cardImage: "assets/images/experience-page/sapient.png",
     place: "Publicis Sapient",
     time: "(Feb 2019 - June 2019)",
-    desp: "<li>Worked as a trainee technology</li><li>Developed Hotel Management application and added functionality to the existing application using Java/J2EE technology</li><li>I was trained in the technologies of Java, Oracle. </li>",
+    desp: "<li>Worked as a trainee technology</li><li>Developed an app called Smart logistics, for transporting goods from one place to another. Built from scratch using React for frontend and Java for backend.</li><li>I was trained in the technologies of React and Java. </li>",
   },
-  
 ];
 
 const showCards2 = () => {
@@ -92,14 +91,14 @@ document.addEventListener("DOMContentLoaded", showCards2);
 //   let output = "";
 //   volunteershipcards.forEach(
 //     ({ title, cardImage, description }) =>
-//       (output += `        
+//       (output += `
 //       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-      
+
 //       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
 //       <div class="content">
 //           <h2 class="volunteerTitle">${title}</h2><br>
 //           <p class="copy">${description}</p></div>
-      
+
 //       </div>
 //       `)
 //   );
@@ -207,7 +206,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 //   let output = "";
 //   mentor.forEach(
 //     ({ title, image, subtitle, desp }) =>
-//       (output += `  
+//       (output += `
 //       <div class="blog-slider__item swiper-slide">
 //         <div class="blog-slider__img">
 //             <img src="${image}" alt="">
@@ -216,7 +215,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 //           <div class="blog-slider__title">${title}</div>
 //           <span class="blog-slider__code">${subtitle}</span>
 //           <div class="blog-slider__text">${desp}</div>
-//           <a href="#" class="blog-slider__button">Read More</a>   
+//           <a href="#" class="blog-slider__button">Read More</a>
 //         </div>
 //       </div>
 //       `)
